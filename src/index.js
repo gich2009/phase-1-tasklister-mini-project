@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return newBtn;
   }
 
-  
+
   function replaceEntry(newChild, event, list){
     const editIndex = (Array.from(list.childNodes)).indexOf(event.target.parentNode);
 
@@ -170,13 +170,3 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
-
-// const editIndex = (Array.from(list.childNodes)).indexOf(event.target.parentNode);
-
-    
-
-    // const existingChild = list.childNodes[editIndex];
-    // list.insertBefore(newChild, existingChild);
-
-    // const childToRemove = list.childNodes[editIndex + 1]; // Remove child at index 2
-    // list.removeChild(childToRemove);
